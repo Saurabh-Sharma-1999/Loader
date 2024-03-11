@@ -1,0 +1,17 @@
+.loader{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    animation: loader 1s linear 0s infinite;
+}
+
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
